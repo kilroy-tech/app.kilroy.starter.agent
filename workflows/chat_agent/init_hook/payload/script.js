@@ -1,12 +1,12 @@
 /**
- * kilroy.tradebot/btd_bot/init.js - preflight/postflight functions for kilroy.ui_agent_template/chat_agent/init
- * @module kilroy.ui_agent_template/chat_agent init
- * @file kilroy.ui_agent_template/chat_agent/init preflight/postflight implementation
+ * kilroy.tradebot/btd_bot/init.js - preflight/postflight functions for kilroy.starter.agent/chat_agent/init
+ * @module kilroy.starter.agent/chat_agent init
+ * @file kilroy.starter.agent/chat_agent/init preflight/postflight implementation
  * @author system
  * @copyright Copyright ©2023, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/chat_agent/init";
+const MODULE_NAME = "workflow:kilroy.starter.agent/chat_agent/init";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

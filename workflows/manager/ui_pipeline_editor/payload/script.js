@@ -1,12 +1,12 @@
 /**
- * kilroy.ui_agent_template/manager/ui_pipeline_editor.js - preflight/postflight functions for kilroy.ui_agent_template/manager/ui_pipeline_editor
- * @module kilroy.ui_agent_template/manager/ui_pipeline_editor
- * @file kilroy.ui_agent_template/manager/ui_pipeline_editor preflight/postflight implementation
+ * kilroy.starter.agent/manager/ui_pipeline_editor.js - preflight/postflight functions for kilroy.starter.agent/manager/ui_pipeline_editor
+ * @module kilroy.starter.agent/manager/ui_pipeline_editor
+ * @file kilroy.starter.agent/manager/ui_pipeline_editor preflight/postflight implementation
  * @author system
  * @copyright Copyright ©2025, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/manager/ui_pipeline_editor";
+const MODULE_NAME = "workflow:kilroy.starter.agent/manager/ui_pipeline_editor";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

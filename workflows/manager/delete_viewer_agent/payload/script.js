@@ -1,12 +1,12 @@
 /**
- * kilroy.ui_agent_template/manager/delete_viewer_agent.js - preflight/postflight functions for kilroy.ui_agent_template/manager/delete_viewer_agent
- * @module kilroy.ui_agent_template/manager/delete_viewer_agent
- * @file kilroy.ui_agent_template/manager/delete_viewer_agent preflight/postflight implementation
+ * kilroy.starter.agent/manager/delete_viewer_agent.js - preflight/postflight functions for kilroy.starter.agent/manager/delete_viewer_agent
+ * @module kilroy.starter.agent/manager/delete_viewer_agent
+ * @file kilroy.starter.agent/manager/delete_viewer_agent preflight/postflight implementation
  * @author system
  * @copyright Copyright ©2025, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/manager/delete_viewer_agent";
+const MODULE_NAME = "workflow:kilroy.starter.agent/manager/delete_viewer_agent";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

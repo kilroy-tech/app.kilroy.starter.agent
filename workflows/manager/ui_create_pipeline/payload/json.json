@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/manager/ui_create_pipeline",
+    "name": "kilroy.starter.agent/manager/ui_create_pipeline",
     "version": "1",
     "description": "",
     "isInteractive": true,

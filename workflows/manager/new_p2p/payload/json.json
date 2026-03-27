@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/manager/new_p2p",
+    "name": "kilroy.starter.agent/manager/new_p2p",
     "version": "1",
     "description": "",
     "isInteractive": true,

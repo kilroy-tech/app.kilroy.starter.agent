@@ -2,7 +2,7 @@ const sparams = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
   });
 
-let alias = sparams.alias || "kilroy.ui_agent_template.chat";
+let alias = sparams.alias || "kilroy.starter.agent.chat";
 let room_id = sparams.room_id || "kilroyaichat";
 let uname = sparams.bot_name || "anonymous";
 let use_markdown = sparams.markdown === "true";

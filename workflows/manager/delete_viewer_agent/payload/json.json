@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/manager/delete_viewer_agent",
+    "name": "kilroy.starter.agent/manager/delete_viewer_agent",
     "version": "1",
     "description": "",
     "isInteractive": false,

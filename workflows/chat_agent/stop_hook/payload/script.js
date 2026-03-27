@@ -6,7 +6,7 @@
  * @copyright Copyright ©2023, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/wf_agent/chat/stop_hook";
+const MODULE_NAME = "workflow:kilroy.starter.agent/wf_agent/chat/stop_hook";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/manager/init",
+    "name": "kilroy.starter.agent/manager/init",
     "version": "1",
     "description": "",
     "isInteractive": false,

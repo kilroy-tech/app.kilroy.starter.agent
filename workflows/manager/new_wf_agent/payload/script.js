@@ -6,7 +6,7 @@
  * @copyright Copyright ©2024, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/manager/new_p2p";
+const MODULE_NAME = "workflow:kilroy.starter.agent/manager/new_p2p";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/manager/new_ai_agent",
+    "name": "kilroy.starter.agent/manager/new_ai_agent",
     "version": "1",
     "description": "",
     "isInteractive": true,

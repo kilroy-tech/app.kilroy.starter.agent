@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/manager/delete_ai_agent",
+    "name": "kilroy.starter.agent/manager/delete_ai_agent",
     "version": "1",
     "description": "",
     "isInteractive": false,

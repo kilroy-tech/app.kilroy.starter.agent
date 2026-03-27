@@ -1,12 +1,12 @@
 /**
  * test/widgets/pause_hook.js - preflight/postflight functions for test/widgets/pause_hook
- * @module kilroy.ui_agent_template/wf_agent/chat/pause_hook
- * @file kilroy.ui_agent_template/wf_agent/chat/pause_hook preflight/postflight implementation
+ * @module kilroy.starter.agent/wf_agent/chat/pause_hook
+ * @file kilroy.starter.agent/wf_agent/chat/pause_hook preflight/postflight implementation
  * @author system
  * @copyright Copyright ©2023, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/wf_agent/chat/pause_hook";
+const MODULE_NAME = "workflow:kilroy.starter.agent/wf_agent/chat/pause_hook";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

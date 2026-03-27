@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/chat_agent/swarm_send_hook",
+    "name": "kilroy.starter.agent/chat_agent/swarm_send_hook",
     "version": "1",
     "description": "",
     "isInteractive": false,

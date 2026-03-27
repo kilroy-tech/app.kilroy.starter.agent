@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/viewer_agent/stop_vault",
+    "name": "kilroy.starter.agent/viewer_agent/stop_vault",
     "version": "1",
     "description": "",
     "isInteractive": true,

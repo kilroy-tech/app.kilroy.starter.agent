@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/chat_agent/ui_clear_tweets",
+    "name": "kilroy.starter.agent/chat_agent/ui_clear_tweets",
     "version": "1",
     "description": "",
     "isInteractive": false,

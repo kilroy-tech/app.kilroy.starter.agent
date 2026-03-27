@@ -1,12 +1,12 @@
 /**
- * kilroy.ui_agent_template/viewer_agent/suspend_hook.js - preflight/postflight functions for kilroy.ui_agent_template/viewer_agent/suspend_hook
- * @module kilroy.ui_agent_template/viewer_agent/suspend_hook
- * @file kilroy.ui_agent_template/viewer_agent/suspend_hook preflight/postflight implementation
+ * kilroy.starter.agent/viewer_agent/suspend_hook.js - preflight/postflight functions for kilroy.starter.agent/viewer_agent/suspend_hook
+ * @module kilroy.starter.agent/viewer_agent/suspend_hook
+ * @file kilroy.starter.agent/viewer_agent/suspend_hook preflight/postflight implementation
  * @author system
  * @copyright Copyright ©2024, Concluent Systems, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/viewer_agent/suspend_hook";
+const MODULE_NAME = "workflow:kilroy.starter.agent/viewer_agent/suspend_hook";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line

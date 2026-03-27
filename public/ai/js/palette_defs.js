@@ -16,7 +16,7 @@ const palette_defs = {
                     agent_style : 2,
                     wf_agent_name : "Chat_Agent",
                     wf_username : "Chat_Agent",
-                    wf_diagram_alias : "kilroy.ui_agent_template.manager",
+                    wf_diagram_alias : "kilroy.starter.agent.manager",
                     wf_webhook_args : "{}",
                     rsize: "88 60",
                     angle: "0",

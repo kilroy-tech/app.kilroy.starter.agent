@@ -1,4 +1,4 @@
-# app.kilroy.ui_agent_template
+# app.kilroy.starter.agent
 
 This is a template for creating Kilroy chat agents with custom HTML user interfaces. The process_diagrams folder
 contains the Kilroy app UI definitions for the chat_agent app. The workflows folder contains implementations of
@@ -15,7 +15,7 @@ The web app receives messages from the Kilroy server using the PubSubClient.js l
 
 In this template, the UI is loaded from index.html and its Javascript functionality is contained in chat_agent.js.
 
-When refactoring this template for a new Kilroy app, the "kilroy.ui_agent_template" identifier should be replaced in all instances.
+When refactoring this template for a new Kilroy app, the "kilroy.starter.agent" identifier should be replaced in all instances.
 The "chat_agent" filename root should be modified to reflect the new app name for source files in the file system.
 The manifest.json file needs to be updated to reflect the new names.
 

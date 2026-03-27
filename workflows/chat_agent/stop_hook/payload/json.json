@@ -1,5 +1,5 @@
 {
-    "name": "kilroy.ui_agent_template/wf_agent/chat/stop_hook",
+    "name": "kilroy.starter.agent/wf_agent/chat/stop_hook",
     "version": "1",
     "description": "",
     "isInteractive": false,

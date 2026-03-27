@@ -1,12 +1,12 @@
 /**
- * kilroy.ui_agent_template/manager/ui_ai.js - preflight/postflight functions for kilroy.ui_agent_template/manager/ui_ai
- * @module kilroy.ui_agent_template/manager/ui_ai
- * @file kilroy.ui_agent_template/manager/ui_ai preflight/postflight implementation
+ * kilroy.starter.agent/manager/ui_ai.js - preflight/postflight functions for kilroy.starter.agent/manager/ui_ai
+ * @module kilroy.starter.agent/manager/ui_ai
+ * @file kilroy.starter.agent/manager/ui_ai preflight/postflight implementation
  * @author system
  * @copyright Copyright ©2026, Kilroy BC, LLC. All rights reserved.
  */
 "use strict";
-const MODULE_NAME = "workflow:kilroy.ui_agent_template/manager/ui_ai";
+const MODULE_NAME = "workflow:kilroy.starter.agent/manager/ui_ai";
 const debug = require('debug')(MODULE_NAME);
 debug.log = console.info.bind(console); //https://github.com/visionmedia/debug#readme
 const Promise = require("bluebird"); // jshint ignore:line
