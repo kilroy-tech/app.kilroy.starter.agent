@@ -6,16 +6,45 @@
     --md-link-light-color: #0969da;
     --md-link-color: var(--md-link-dark-color);
 
-    --bg-body:    #0d1117;
-    --bg-surface: #161b22;
-    --bg-inset:   #0d1117;
-    --border:     #30363d;
-    --text:       #e6edf3;
-    --text-muted: #8b949e;
-    --text-dim:   #484f58;
-    --accent-user: #58a6ff;
-    --accent-bot:  #484f58;
-    --accent-green: #3fb950;
+    --bg-body:         #0d1117;
+    --bg-surface:      #161b22;
+    --bg-inset:        #0d1117;
+    --border:          #30363d;
+    --text:            #e6edf3;
+    --text-muted:      #8b949e;
+    --text-dim:        #484f58;
+    --accent-user:     #58a6ff;
+    --accent-bot:      #484f58;
+    --accent-green:    #3fb950;
+
+    /* component-level color tokens */
+    --bg-console:      #0d1420;
+    --bg-input-bar:    #0a1018;
+    --bg-input-field:  #0d1420;
+    --bg-bubble-user:  #111d2e;
+    --code-inline-color: #79c0ff;
+}
+
+[data-bs-theme="light"] {
+    --inset-bg-color:  var(--inset-bg-light-color);
+    --md-link-color:   #0969da;
+
+    --bg-body:         #f6f8fa;
+    --bg-surface:      #ffffff;
+    --bg-inset:        #eaecef;
+    --border:          #d0d7de;
+    --text:            #1f2328;
+    --text-muted:      #57606a;
+    --text-dim:        #6e7781;
+    --accent-user:     #0969da;
+    --accent-bot:      #8c959f;
+    --accent-green:    #1a7f37;
+
+    --bg-console:      #eef2f7;
+    --bg-input-bar:    #e8ecf1;
+    --bg-input-field:  #ffffff;
+    --bg-bubble-user:  #dbeafe;
+    --code-inline-color: #0550ae;
 }
 
 /* ============================================================
@@ -40,7 +69,8 @@ body {
 .chat-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    flex: 1;
+    min-height: 0;
     overflow: hidden;
 }
 
@@ -88,6 +118,7 @@ body {
     padding: 10px 14px 6px;
     display: flex;
     flex-direction: column;
+    background: var(--bg-console);
     gap: 0;
     scrollbar-width: thin;
     scrollbar-color: var(--border) transparent;
@@ -120,7 +151,7 @@ body {
 
 .chat-bubble-user {
     border-left-color: var(--accent-user);
-    background: #111d2e;
+    background: var(--bg-bubble-user);
 }
 
 .chat-bubble-bot {
@@ -143,11 +174,11 @@ body {
 }
 
 .chat-bubble-user .bubble-name { color: var(--accent-user); }
-.chat-bubble-bot  .bubble-name { color: var(--text-dim); }
+.chat-bubble-bot  .bubble-name { color: var(--text-muted); }
 
 .bubble-time {
     font-size: 10px;
-    color: var(--text-dim);
+    color: var(--text-muted);
     letter-spacing: 0.02em;
 }
 
@@ -164,13 +195,14 @@ body {
     align-items: flex-end;
     gap: 8px;
     padding: 8px 14px 10px;
-    background: var(--bg-surface);
+    background: var(--bg-input-bar);
     border-top: 1px solid var(--border);
 }
 
 .input-name {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     gap: 2px;
     min-width: 100px;
     max-width: 130px;
@@ -186,7 +218,7 @@ body {
 }
 
 #username {
-    background: var(--bg-inset) !important;
+    background: var(--bg-input-field) !important;
     border: 1px solid var(--border) !important;
     color: var(--text-muted) !important;
     border-radius: 4px !important;
@@ -205,10 +237,13 @@ body {
 
 .input-msg {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #msg {
-    background: var(--bg-inset) !important;
+    background: var(--bg-input-field) !important;
     border: 1px solid var(--border) !important;
     color: var(--text) !important;
     border-radius: 4px !important;
@@ -346,7 +381,7 @@ body {
 
 .kilroy-markdown code:not(pre > code) {
     background: var(--bg-surface);
-    color: #79c0ff;
+    color: var(--code-inline-color);
     border: 1px solid var(--border);
     border-radius: 3px;
     padding: 1px 5px;

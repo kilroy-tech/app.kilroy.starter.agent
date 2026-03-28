@@ -171,10 +171,6 @@ const msgCt = van.state (0);
 
 const Chat = () => {
     return div({class: "chat-container"},
-        div({class: "chat-header"},
-            div({class: "status-dot"}),
-            uname
-        ),
         div({id: "console"}),
         div({class: "chat-input-bar"},
             div({class: "input-name"},
@@ -225,6 +221,13 @@ function _SetDarkMode (mode) {
     }
     r.style.setProperty ("--inset-bg-color", bgColor);
     r.style.setProperty ("--md-link-color", linkColor);
+
+    const hljsLink = document.getElementById('hljs-theme');
+    if (hljsLink) {
+        hljsLink.href = dark_mode
+            ? 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css'
+            : 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css';
+    }
 }
 
 $(function () {
@@ -238,6 +241,8 @@ $(function () {
     un.val (uname);
     let msg = $("#msg");
     msg.focus();
+    logmsg('<div style="color:var(--text-dim);padding:6px 2px;font-size:12px">…</div>');
+    setTimeout(() => ClearLog(""), 300);
     $("#msg").on('keyup', function (e) {
         if (e.key === 'Enter' && !e.shiftKey) {
             SendMessage ();
