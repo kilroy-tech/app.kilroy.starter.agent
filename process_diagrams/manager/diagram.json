@@ -30,26 +30,6 @@
                 "loc": "-248 -172"
             },
             {
-                "category": "backdrop",
-                "figure": "Rectangle",
-                "msg": "Kilroy Chat_Agent",
-                "msg_template": "",
-                "rsize": "228 28",
-                "angle": "0",
-                "fill": "#C0C0C0",
-                "opacity": 0.6,
-                "stroke": "transparent",
-                "strokeWidth": 0,
-                "font": "bold 14px \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-                "fontStroke": "#000000",
-                "fontStroke_template": "",
-                "whiteSpace": "normal",
-                "justifyContent": "left",
-                "zOrder": 125,
-                "key": -52,
-                "loc": "-248 -200"
-            },
-            {
                 "category": "webhook",
                 "title": "init_hook",
                 "rsize": "100 40",

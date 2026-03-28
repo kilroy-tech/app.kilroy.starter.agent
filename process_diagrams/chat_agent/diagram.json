@@ -116,47 +116,6 @@
                 "loc": "-572 64"
             },
             {
-                "category": "backdrop",
-                "figure": "Rectangle",
-                "msg": "",
-                "msg_template": "",
-                "rsize": "20 28",
-                "angle": "0",
-                "fill": "#C0C0C0",
-                "opacity": 0.6,
-                "stroke": "transparent",
-                "strokeWidth": 0,
-                "font": "10px \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-                "fontStroke": "#000000",
-                "fontStroke_template": "",
-                "whiteSpace": "normal",
-                "justifyContent": "left",
-                "zOrder": 125,
-                "key": -19,
-                "loc": "-364 -100"
-            },
-            {
-                "category": "backdrop",
-                "figure": "Rectangle",
-                "msg": "ID",
-                "msg_template": "CHAT: ${ta_agent_name}: ${ta_desc}",
-                "rsize": "492 28",
-                "rsize_template": "${ta_titlebar_width} 28",
-                "angle": "0",
-                "fill": "#C0C0C0",
-                "opacity": 0.6,
-                "stroke": "transparent",
-                "strokeWidth": 0,
-                "font": "bold 14px \"Helvetica Neue\", Helvetica, Arial, sans-serif",
-                "fontStroke": "#000000",
-                "fontStroke_template": "",
-                "whiteSpace": "normal",
-                "justifyContent": "left",
-                "zOrder": 125,
-                "key": -18,
-                "loc": "-344 -100"
-            },
-            {
                 "category": "webhook",
                 "title": "set_config",
                 "rsize": "140 40",
@@ -461,6 +420,26 @@
                 "zOrder": 120,
                 "key": -7,
                 "loc": "-536 248"
+            },
+            {
+                "category": "webhook",
+                "title": "ui_resize_hook",
+                "rsize": "140 40",
+                "trigger_name": "ui_resize_hook",
+                "action_workflow": "kilroy.starter.agent/chat_agent/ui_resize_hook",
+                "action_workflow_id": "",
+                "action_args": "{}",
+                "action_type": "WORKFLOW",
+                "action_trigger": "",
+                "server_only": "true",
+                "dash": [
+                    3,
+                    2
+                ],
+                "visible": true,
+                "zOrder": 120,
+                "key": -26,
+                "loc": "-536 292"
             }
         ],
         "linkDataArray": []

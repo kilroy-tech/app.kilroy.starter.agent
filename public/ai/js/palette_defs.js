@@ -17,7 +17,7 @@ const palette_defs = {
                     wf_agent_name : "Chat_Agent",
                     wf_username : "Chat_Agent",
                     wf_diagram_alias : "kilroy.starter.agent.manager",
-                    wf_webhook_args : "{}",
+                    wf_webhook_args : "{\"markdown\": true, \"darkmode\": true}",
                     rsize: "88 60",
                     angle: "0",
                     fill: "#FFFFFF",

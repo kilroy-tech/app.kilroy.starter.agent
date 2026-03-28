@@ -34,7 +34,8 @@
             "init"  : "init_hook",
             "resume": "resume_hook",
             "pause" : "pause_hook",
-            "stop"  : "stop_hook"
+            "stop"  : "stop_hook",
+            "ui_resize": "ui_resize_hook"
         }
     }
 }
